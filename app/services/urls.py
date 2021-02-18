@@ -1,0 +1,12 @@
+class URL:
+    """Contains url paths"""
+    login = "/login"
+    home = "/home"
+    divison = "/reports/Division"
+    standalone = "/reports/Standalone"
+    subsidiary = "/reports/Subsidiary"
+    overseas_consolidation = "/reports/Overseas%20Consolidation"
+    consolidation = "/reports/Consolidation"
+    gl_reco = "/reconciliations/GL%20Reco"
+    interunit = "/reconciliations/InterUnit"
+    account = "/setup/Account%20Setup"
