@@ -14,3 +14,6 @@
 ## 4. Run app
     >>  python app/run.py
 
+
+# Make Sure You have chrome driver in static folder
+
