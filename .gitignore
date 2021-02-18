@@ -76,6 +76,7 @@ docs/_build/
 target/
 app/media
 app/export
+app/static
 
 
 # Jupyter Notebook
