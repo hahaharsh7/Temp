@@ -7,7 +7,6 @@ from constants import DRIVER_PATH, MAX_WAIT, MEDIA_PATH
 
 
 
-
 class WebDriver:
     """
     Higher Level class for chrome webdriver
@@ -44,9 +43,6 @@ class WebDriver:
                 continue
         raise Exception(f"Max wait time over element {element_search_string} not found through {method}")
                 
-            
-                
-    
     def find_elements(self, element_search_string, method='xpath'):
         """finds elements by identifier(like id value, xpath value) and method(like id, xpath)"""
         self.validate_method(method)
@@ -66,7 +62,7 @@ class WebDriver:
         body = self.__driver.find_element_by_tag_name('body')
         body.screenshot(f'{MEDIA_PATH}\\{feature_name}.png')
         
-        
     def page_source(self):
+        """returns entire web page source"""
         data = BeautifulSoup(self.__driver.page_source)
         return data

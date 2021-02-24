@@ -10,3 +10,4 @@ class URL:
     gl_reco = "/reconciliations/GL%20Reco"
     interunit = "/reconciliations/InterUnit"
     account = "/setup/Account%20Setup"
+    entry_form = "/entryform/Entry%20Form"
