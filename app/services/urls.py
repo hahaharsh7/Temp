@@ -11,3 +11,4 @@ class URL:
     interunit = "/reconciliations/InterUnit"
     account = "/setup/Account%20Setup"
     entry_form = "/entryform/Entry%20Form"
+    iut_setup = "/setup/IUT%20Setup"
