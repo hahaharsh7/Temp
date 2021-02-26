@@ -1,4 +1,4 @@
-from services.basetester import BaseTester
+from services.homepagetester.test import HomePageTester
 from logger.bool_logger import bool_logger
 from constants import BASE_URL
 from services.urls import URL
