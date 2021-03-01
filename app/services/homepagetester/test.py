@@ -1,4 +1,5 @@
 from .id import HomeId
+from services.basetester import BaseTester
 
 class HomePageTester(BaseTester):
     name = "Home Page"
