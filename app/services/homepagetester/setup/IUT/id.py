@@ -1,6 +1,12 @@
-class EFX:
-    Input = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[3]/div[1]/div[1]/div/input"""
-    PageF = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[3]/table/tfoot/tr/td/div/div[3]/span[1]/button"""
-    PageL = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[3]/table/tfoot/tr/td/div/div[3]/span[2]/button"""
-    PageN = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[3]/table/tfoot/tr/td/div/div[3]/span[4]/button"""
-    PageP = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[3]/table/tfoot/tr/td/div/div[3]/span[5]/button"""
+class IUTX:
+    Input = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/div[1]/div/div[1]/div/input"""
+    PageF = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/table/tfoot/tr/td/div/div[3]/span[1]/button"""
+    PageL = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/table/tfoot/tr/td/div/div[3]/span[2]/button"""
+    PageN = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/table/tfoot/tr/td/div/div[3]/span[4]/button"""
+    PageP = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/table/tfoot/tr/td/div/div[3]/span[5]/button"""
+    Edit = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/table/tbody/tr[]/td[1]/div/button"""
+    Gross = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/table/tbody/tr[]/td[3]/div/div/div/div/button[2]"""
+    Net = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/div[2]/div/div/div/table/tbody/tr[]/td[4]/div/div/div/div/button[2]"""
+    SelectAll = r"""//*[@id="checkboxes-tags-demo-option-0"]"""
+    Reset = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/div[1]/button"""
+    Clear = r"""/html/body/div[2]/div[2]/div[3]/div/div/div/div/div[2]/div[1]/div/div[1]/div/div[2]/button"""

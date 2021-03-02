@@ -1,9 +1,11 @@
-from services.homepagetester.financialreporttester import FinancialReportsTester
+from services.homepagetester.test import HomePageTester
 from logger.bool_logger import bool_logger
 from constants import BASE_URL
 from services.urls import URL
-import time
 from .id import AccountX
+import time
+from random import choice
+
 
 class AccountSetupTester(HomePageTester):
     name = "Account Setup"
@@ -24,7 +26,9 @@ class AccountSetupTester(HomePageTester):
     
     def search(self, search_el=""):
         a = self.get_element()
-        r = choice(a)
+        r = "Rows per page"
+        while "Rows per page" in r:
+            r = choice(a)
         if search_el != "":
             r = search_el
         self.find_element(AccountX.Input).send_keys(r)
@@ -88,4 +92,3 @@ class AccountSetupTester(HomePageTester):
         except Exception as e:
             print(f'Exception occured in class {self.__class__} message:- {e}')
             return False
-    
