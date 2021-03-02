@@ -38,32 +38,32 @@ class SubsidiaryReportTester(FinancialReportsTester):
 #                 list4.append(d[i]['id'])
 #             self.find_element(list4[2],'id').click()
 #             self.find_element(list4[3],'id').click()
-            c = self.get_filter_values_and_id(SubsidiaryId.business) #trading and holography in businesses
-            list2=[]
-            for i in range(len(c)):
-                list2.append(c[i]['id'])
-            self.find_element(list2[3],'id').click()
-            self.find_element(list2[4],'id').click()
+            # c = self.get_filter_values_and_id(SubsidiaryId.business) #trading and holography in businesses
+            # list2=[]
+            # for i in range(len(c)):
+            #     list2.append(c[i]['id'])
+            # self.find_element(list2[3],'id').click()
+            # self.find_element(list2[4],'id').click()
             
-            d = self.get_filter_values_and_id(SubsidiaryId.entities) #select all entities
-            list2=[]
-            for i in range(len(d)):
-                list2.append(d[i]['id'])
-            self.find_element(list2[0],'id').click()
+            # d = self.get_filter_values_and_id(SubsidiaryId.entities) #select all entities
+            # list2=[]
+            # for i in range(len(d)):
+            #     list2.append(d[i]['id'])
+            # self.find_element(list2[0],'id').click()
            
-            e = self.get_filter_values_and_id(SubsidiaryId.currency) #INR currency
-            list2=[]
-            for i in range(len(e)):
-                list2.append(e[i]['id'])
-            self.find_element(list2[1],'id').click()
+            # e = self.get_filter_values_and_id(SubsidiaryId.currency) #INR currency
+            # list2=[]
+            # for i in range(len(e)):
+            #     list2.append(e[i]['id'])
+            # self.find_element(list2[1],'id').click()
             
-            f = self.get_filter_values_and_id(SubsidiaryId.month) #year filyer , check 1 and 2 
-            list2=[]
-            for i in range(len(f)):
-                list2.append(f[i]['id'])
-            self.find_element(list2[1],'id').click()
-            self.find_element(list2[2],'id').click()
-            self.find_element(list2[3],'id').click()
+            # f = self.get_filter_values_and_id(SubsidiaryId.month) #year filyer , check 1 and 2 
+            # list2=[]
+            # for i in range(len(f)):
+            #     list2.append(f[i]['id'])
+            # self.find_element(list2[1],'id').click()
+            # self.find_element(list2[2],'id').click()
+            # self.find_element(list2[3],'id').click()
 
 
 
