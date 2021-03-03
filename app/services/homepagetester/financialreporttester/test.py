@@ -1,6 +1,7 @@
-from logger.bool_logger import bool_logger
-from constants import BASE_URL
-from services.urls import URL
+from app.logger.bool_logger import bool_logger
+from app.constants import BASE_URL
+from app.services.urls import URL
+from app.services.homepagetester.test import HomePageTester
 import time
 
 

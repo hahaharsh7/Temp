@@ -1,6 +1,6 @@
 from abc import ABC, abstractmethod
-from .validator import ValidatorMixin
-from driver.webdriver import WebDriver
+from app.services.validator import ValidatorMixin
+from app.driver.webdriver import WebDriver
 
 class BaseTester(WebDriver, ValidatorMixin,ABC):
     """This base class provides basic functionality to helps all testing classes"""

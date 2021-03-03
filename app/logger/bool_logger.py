@@ -1,5 +1,5 @@
 from functools import wraps
-from constants import csv_writer
+from app.constants import csv_writer
 
 def bool_logger(method):
     def inner_function(cls,*args, **kwargs):

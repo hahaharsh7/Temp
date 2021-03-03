@@ -1,4 +1,4 @@
-from commons.csv_writer import CSVWriter
+from app.commons.csv_writer import CSVWriter
 import pathlib, os
 
 

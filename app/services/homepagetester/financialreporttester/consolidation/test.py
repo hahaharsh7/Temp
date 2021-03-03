@@ -1,12 +1,16 @@
-from services.homepagetester.financialreporttester import FinancialReportsTester
-from logger.bool_logger import bool_logger
-from constants import BASE_URL
-from services.urls import URL
+from app.services.homepagetester.financialreporttester.test import FinancialReportsTester
+from app.logger.bool_logger import bool_logger
+from app.constants import BASE_URL
+from app.services.urls import URL
 import time
 from .id import  ConsolidationId
 
 class ConsolidationReportTester(FinancialReportsTester):
     name = "Consolidation"
+
+    def __init__(self, driver=None):
+        if driver:
+            self.set_driver(driver)
 
     @bool_logger
     def test_consolidation(self):
